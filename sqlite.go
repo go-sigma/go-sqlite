@@ -51,7 +51,7 @@ var (
 var LogSqlStatements bool
 
 const (
-	driverName              = "sqlite"
+	driverName              = "pure-go-sqlite"
 	ptrSize                 = unsafe.Sizeof(uintptr(0))
 	sqliteLockedSharedcache = sqlite3.SQLITE_LOCKED | (1 << 8)
 )
